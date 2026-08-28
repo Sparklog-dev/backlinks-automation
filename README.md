@@ -8,21 +8,20 @@ This repository houses the structural data logging models, form evaluation vecto
 
 Per internal alignment, development is prioritized around simple, high-velocity single-page forms to secure foundational domain footprint without breaking anti-bot gates.
 
-### 📋 Ease-of-Fill Evaluation Index (Scale 1-10)
+### 📋 Ease-of-Fill Evaluation Index & ScrollLaunch Audit Data
 
-| Directory Name | Target URL Link | Complexity Rating | Core Field Form Schema Structural Requirements |
-| :--- | :--- | :---: | :--- |
-| **Hacker News** | `https://ycombinator.com` | **10 / 10** | Single-field submission profile (`Title`, `URL`). Zero nesting. |
-| **AllTop** | `https://alltop.com` | **9 / 10** | Direct category assignment + single feed link connection. |
-| **Index by Dodo Payments** | `https://dodo.payments` | **9 / 10** | Single-page product name, description, and link assignment. |
-| **TinyLaunch** | `https://tinylaunch.com` | **8 / 10** | Baseline startup submission form. Requires name, tagline, URL. |
-| **AIStage** | `https://aistage.com` | **8 / 10** | AI-focused index. Requires tool name, short description, link. |
-| **Startup Buffer** | `https://startupbuffer.com` | **8 / 10** | Single-page layout containing short parameters and tags. |
-| **Aura** | `https://aura.directory` | **8 / 10** | Basic metadata collection array without authentication blockades. |
-| **FutureTools** | `https://futuretools.io` | **7 / 10** | Form variation exists but relies primarily on a basic text matrix. |
-| **SaaSHub** | `https://saashub.com` | **7 / 10** | Asks for name, link, and competitive software alternatives. |
-| **Viesearch** | `https://viesearch.com` | **7 / 10** | Basic web directory layout field indexing interface. |
-| **Product Hunt** | `https://producthunt.com` | **2 / 10** | ⚠️ **HOLD:** 5-step form cluster requiring multi-media assets, maker profiles. |
+| Directory Name | Domain Rating (DR) | Backlink Type | Process Time | Complexity Score (1-10) | Form Schema Requirements |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **Hacker News** | 92 | Do-Follow | < 1 min | **10 / 10** | Single-field submission layout (`Title`, `URL`). Zero login nesting. |
+| **Link Centre** | 71 | Do-Follow | 1-2 mins | **9 / 10** | Low-hanging single-page entry. Basic metadata parameters. |
+| **AllTop** | 69 | Do-Follow | 2 mins | **9 / 10** | Direct niche category mapping + RSS link hook connection points. |
+| **Viesearch** | 73 | Do-Follow | 2 mins | **8 / 10** | Standard 1-page form block (`Site Name`, `Description`, `URL`). |
+| **TinyLaunch** | 42 | Do-Follow | 2 mins | **8 / 10** | Basic metadata collection array without strict verification checks. |
+| **AIStage** | 35 | Do-Follow | 3 mins | **8 / 10** | AI-focused discovery matrix tool fields. Single layout format. |
+| **SaaSHub** | 68 | No-Follow | 3 mins | **7 / 10** | Requires product details and mapping of competitor software labels. |
+| **Cyclex** | 72 | Do-Follow | 4 mins | **6 / 10** | Local search index profile with secondary layout text field boxes. |
+| **Product Hunt** | 90 | No-Follow | 15+ mins | **2 / 10** | ⚠️ **ON HOLD:** High-friction 5-step form pipeline requiring media assets. |
+
 
 ---
 
