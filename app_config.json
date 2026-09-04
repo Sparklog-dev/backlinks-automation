@@ -1,0 +1,9 @@
+{
+  "product_name": "Sparklog",
+  "product_url": "https://sparklog.dev",
+  "tagline": "Automated high-performance monitoring for modern microservices.",
+  "description": "Sparklog is an enterprise-grade observability platform designed to aggregate, parse, and alert on system metrics natively in real-time. Built on a low-overhead telemetry engine, it delivers high-density performance tracking without local agent memory bloat.",
+  "contact_email": "founder@sparklog.dev",
+  "contact_name": "Nikhil Dev",
+  "category": "Developer Tools"
+}
