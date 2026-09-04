@@ -113,7 +113,7 @@ try:
             # Locate and safely trigger form submission button layout wrapper
             submit_btn = driver.find_elements(By.XPATH, "//button[@type='submit' or contains(text(), 'Submit') or contains(text(), 'Add')]")
             if submit_btn:
-                # driver.execute_script("arguments[0].click();", submit_btn[0]) # Uncomment when ready to execute active database updates
+                driver.execute_script("arguments[0].click();", submit_btn[0]) # Uncomment when ready to execute active database updates
                 pass
                 
             print(f"✅ SUCCESS: White label fields successfully populated for {domain}!")
